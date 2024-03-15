@@ -1,8 +1,11 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from crud import s, get_all_dev_types, get_dev_by_title
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
-def gen_start_kb():
+def gen_start_kb(telid):
     devs = get_all_dev_types(s)
     types = []
     for d in devs:
@@ -10,8 +13,17 @@ def gen_start_kb():
             types.append(d.device_type)
     butt = [[InlineKeyboardButton(text= d, callback_data='first_' +d)] for d in types]
 
+    
+    if telid != os.getenv('ADMIN_TELID'):
+        start_kb = InlineKeyboardMarkup(inline_keyboard=butt)
+        return start_kb
+    
+    butt += [InlineKeyboardButton(text= 'Админка', callback_data='admin')]
+
     start_kb = InlineKeyboardMarkup(inline_keyboard=butt)
     return start_kb
+    
+    
 
 
 def gen_companyies_kb(typ):
@@ -56,6 +68,12 @@ def gen_devices_param_kb(dev_title, last_cb):
     dev_kb = InlineKeyboardMarkup(inline_keyboard=butt)
     return dev_kb
 
+
 def gen_last_kb(dev_title):
     dev_kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text= 'Назад', callback_data='devs_' + dev_title)]])
+    return dev_kb
+
+
+def gen_admin_keyboard():
+    dev_kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text= 'Сделать рассылку', callback_data='make_spam')], [InlineKeyboardButton(text= 'Назад', callback_data='start')]])
     return dev_kb

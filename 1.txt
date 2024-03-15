@@ -41,7 +41,7 @@ iPhone 12_Mini 128 Purple
 iPhone 12_Mini 128 Green
 50000 руб.
 iPhone 12_Mini 256 White
-52500руб.
+52500 руб.
 iPhone 13_Mini 512 Red 
 80000 руб.
 iPhone 13_128 Midnight
@@ -55,7 +55,7 @@ iPhone 13_128 Pink
 iPhone 13_128 Pink 
 64000 руб.
 iPhone 13_128 Green 
-64000руб.
+64000 руб.
 iPhone 13_128 Red 
 64000 руб.
 iPhone 13_256 Black 
@@ -87,7 +87,7 @@ iPhone 14_256 Purple
 iPhone 14_256 Yellow 
 82000 руб.
 iPhone 14 Plus_128 Black 
-81000руб.
+81000 руб.
 iPhone 14 Plus_128 White 
 81000 руб.
 iPhone 14 Plus_128 Purple 
@@ -111,13 +111,14 @@ iPhone 14 Pro_512 Black
 iPhone 14 Pro_512 Gold 
 129000 руб.
 iPhone 14 Pro_1TB Black 
-132000руб.
+132000 руб.
 iPhone 14 Pro_1TB White 
 132000 руб.
 iPhone 14 Pro_1TB Gold 
 132000 руб.
 iPhone 14 Pro_1TB Purple 
 132000 руб.
+
 iPhone 14 Pro_Max 128 Gold 
 121200 руб.
 iPhone 14 Pro_Max 1TB Purple
@@ -175,6 +176,6 @@ iPhone 15 Pro Max_256 Black Titanium
 iPhone 15 Pro Max_256 White Titanium 
 132500 руб.
 iPhone 15 Pro Max_256 Blue Titanium 
-132500руб.
+132500 руб.
 iPhone 15 Pro Max_512 Blue Titanium 
 160000 руб.

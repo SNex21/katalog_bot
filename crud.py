@@ -49,3 +49,22 @@ def get_dev_by_title(db: session(), title: str) -> list:
 def get_dev_by_title_and_params(db: session(), title: str, params: str) -> Device:
     dev = s.query(Device).filter(Device.device_title == title).filter(Device.params == params).first()
     return dev
+
+def get_user_by_telid(s, telid):
+    user = s.query(User).filter(User.telid == str(telid)).group_by(User).first()
+    return user
+
+
+def get_all_users(s: session()):# Функция получения всех юзеров
+    users = []
+    user = {}
+    for row in s.query(User).all():
+        user['telid'] = row.telid
+        if (row.username == None):
+            user['username'] = 'none'
+        else:
+            user['username'] = row.username
+        user['register_date'] = row.register_date
+        users.insert(len(users), user)
+        user = {}
+    return users

@@ -1,0 +1,88 @@
+MacBook Air 13_M1 8/256 gold 
+90.000
+MacBook Air 13_M1 8/256 gray 
+90.000
+MacBook Air 13_M1 8/256 silver 
+90.000
+MacBook Air 13_M2 8/256Gb Midnight 
+119.000
+MacBook Air 13_M2 8/256Gb Silver
+119.000
+MacBook Air 13_M2 8/256Gb Space gray 
+121.000
+MacBook Air 13_M2 8/256Gb Starlight 
+120.000
+MacBook Air 15_M2 8/256 Midnight 
+135.000
+MacBook Air 15_M2 8/256 silver 
+135.000
+MacBook Air 15_M2 8/256 Space Gray 
+135.000
+MacBook Air 15_M2 8/256 Starlight 
+135.000
+MacBook Air 15_M2 8/512 midnight 
+162.200
+MacBook Air 15_M2 8/512 silver 
+162.200
+MacBook Air 15_M2 8/512 space gray 
+162.200
+MacBook Air 15_M2 8/512 starlight 
+162.200
+MacBook Pro 13_M2 8/256 Silver 
+134.500
+MacBook Pro 13_M2 8/256 Space gray 
+130.000
+MacBook Pro 13_M2 8/512 silver 
+155.000
+MacBook Pro 13_M2 8/512 space gray 
+154.000
+MacBook Pro 14_M1 16/512 gray 
+170.000
+MacBook Pro 14_M1 16/512 Silver 
+170.000
+MacBook Pro 14_M1 Pro 16/512 Space gray 
+173.000
+MacBook Pro 14_M2 Pro 16/1024 Space Gray 
+257.000
+MacBook Pro 14_M3 8/1024 silver 
+215.000
+MacBook Pro 14_M3 8/1024 space gray 
+215.000
+MacBook Pro 14_M3 8/512 Silver 
+205.000
+MacBook Pro 14_M3 8/512 Space Black 
+205.000
+MacBook Pro 14_M3 Max 14/30C SSD 36/1024 space black 
+350.000
+MacBook Pro 14_M3 Pro 11/14C SSD 18/512 silver 
+235.000
+MacBook Pro 14_M3 Pro 11/14C SSD 18/512 space black
+235.000
+MacBook Pro 14_M3 Pro 12/18C SSD 18/1024 silver 
+285.000
+MacBook Pro 14_M3 Pro 12/18C SSD 18/1024 space black 
+282.000
+MacBook Pro 14_M3 Pro 18/1tb Silver 
+293.500
+MacBook Pro 14_M3 Pro 18/1tb Space Black 
+293.500
+MacBook Pro 14_M3 Pro 18/512 Silver 
+240.000
+MacBook Pro 14_M3 Pro 18/512 Space Black 
+240.000
+MacBook Pro 16_16/1024 Space gray 
+227.000
+MacBook Pro 16_16/512 Space gray
+211.000
+MacBook Pro 16_M3 Pro 12C/18C GPU 36/512 silver 
+320.000
+MacBook Pro 16_M3 Pro 12C/18C GPU 36/512 space black 
+320.000
+MacBook Pro 16_M3 Pro 12C/18C SSD 18/512 silver 
+280.000
+MacBook Pro 16_M3 Pro 12C/18C SSD 18/512 space black
+280.000
+MacBook Mini 2023_8/256 
+71.000
+MacBook Mini 2023_8/512 
+90.500
