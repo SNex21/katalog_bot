@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    restart: 'always'
+    environment:
+      POSTGRES_USER: 'myuser'
+      POSTGRES_PASSWORD: 'Snex20242025go'
+    ports:
+      - 5432:5432
+  bot:
+    build: ./
+
+    command: python main.py
+    
+    volumes:
+      - .:/usr/src/cnw
+    ports:
+      - 8000:8000
+      - 80:80
+    depends_on:
+      - postgres
+    restart: always
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    restart:
+      always
+    environment:
+      ADMINER_DESIGN: 'hydra'
